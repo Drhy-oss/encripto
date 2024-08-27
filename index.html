@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="styleSheet" href="style.css">
+    
+    <title>Encriptografar</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="logo">
+    </header>
+
+    <main>
+        <section>
+                <textarea class="text-area" cols="41" rows="6" placeholder="Digite aqui..."></textarea>
+                <div class="informacao">
+                    <h6 class="minusculas">Apenas letras minusculase sem acentos.</h6>
+                </div>
+
+                <div class="botoes">
+                    <button class="btn-encriptografar" onclick="btnEncriptografar()">Encriptografar</button>
+                    <button class="btn-descriptografar" onclick="btnDesencriptografar()">Descriptografar</button>
+                </div>
+        </section>
+        <section>
+            <textarea id="meuTextarea" class="mensagem" cols="22" rows="9" ></textarea>
+            <button class="btn-copiar">Copiar</button>
+        </section>
+       
+        
+    </main>
+    <script src="script.js"></script>
+    <footer class="footer">Desenvolvido por Adriano Vidal</footer>
+</body>
+</html>
